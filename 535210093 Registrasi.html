@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrasi</title>
+</head>
+<body>
+    <form action="../../../../Working%20files/FAHMI%20SHADDAM%20RAHMANSYAH/Tugas%201%20-%20Pengantar%20HTML/contact.php" method="POST">
+        <fieldset>
+        <legend>Registrasi</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder="Masukkan Nama lengkap" />
+        </p>
+        <p>
+            <label>Tanggal Lahir:</label>
+            <input type="date" name="tanggal" />
+        </p>
+        <p>
+            <label>Umur:</label>
+            <input type="number" min="5" max="90" name="umur" placeholder="Umur..." />
+        </p>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="Masukkan Username" />
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Masukkan email Anda" />
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Masukkan Password" />
+        </p>
+        <p>
+            <label>Re-enter Password:</label>
+            <input type="password" name="re-enter password" placeholder="Masukkan Password kembali" />
+        </p>
+        <p>
+            <label>Jenis kelamin:</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+        </p>
+        <p>
+            <label>Agama:</label>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+        </p>
+        <p>
+            <label>Pekerjaan:</label>
+            <input type="text" name="pekerjaan" placeholder="Pekerjaan Anda" />
+        </p>
+        <p>
+            <label>Biografi:</label>
+            <textarea name="biografi"></textarea>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Daftar" />
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>
