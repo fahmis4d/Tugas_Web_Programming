@@ -1,3 +1,4 @@
 # Tugas_Web_Programming
-Tugas untuk mata kuliah web programming UNTAR
-Fahmi Shaddam/535210093
+Tugas untuk mata kuliah Web Programming FTI UNTAR
+Fahmi Shaddam
+535210093
